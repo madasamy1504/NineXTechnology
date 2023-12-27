@@ -1,0 +1,162 @@
+
+/* ===== Global CSS ==== */
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varta', sans-serif;
+    color: #919091;
+    
+  }
+/* ===== Global CSS ==== */
+
+
+/* ============= Desktop css Start ============= */
+
+
+  .Container{
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .BgContainer{
+    background-image: url("./images/bg-cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1152px;
+    height: 720px;
+    border: 10px solid red;
+    border-image: linear-gradient( to right, red,#f6b73c) 30;
+  
+  }
+  
+  .Header{
+    padding: 12px 40px 12px 13px;
+    background-color: #FFF;
+  }
+  .Subheader{
+    padding: 19px 24px 160px 24px;
+    font-style: italic;
+  }
+  .bgColorBlack{
+    background-color: #000000;
+    padding-left: 8px;
+    margin: 20px 0px 0px 1px;
+  }
+  .arrow{
+    width: 10px;
+    height: 15px;
+    background-color: transparent;
+  }
+  .arrowRight,.arrowLeft{
+    padding-top: 68px;
+  }
+  .SliderContainer{
+    display: flex;
+    padding: 0 10px;
+  }
+  .SliderContainer:first-child,.SliderContainer:nth-child(3){
+    flex-basis: 1;
+  }
+  .SliderContainer:nth-child(2){
+    flex-basis: 2;
+  }
+
+  .WheelsCard{
+    display: flex;
+    width: 98%;
+    justify-content: space-around;
+  }
+  .wheelimg{
+    width: 160px;
+    height: 160px;
+  }
+  .WheelsCard{
+    text-align: center;
+  }
+  .text1,.text3{
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+  }
+  .text2{
+    font-size: 12px;
+  }
+  .active{
+    animation: scalling 1s ;
+    background-image: url("./images/wheel-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.5px solid #c8c8ca;
+    padding: 10px;
+    transform: scale(1.5);
+   
+
+    
+  }
+  .disabler{
+    opacity: 0.2;
+  }
+
+  /* ===== Animation Start ==== */
+  @keyframes scalling {
+    0%{
+        transform: scale(1.2);
+    }
+   
+    100%{
+        transform: scale(1.5);
+    }
+    
+  }
+/* ===== Animation End ==== */
+
+/* ============= Desktop css End ============= */
+
+
+
+/* ========== Responsive css Start ========= */
+
+  @media screen and (min-width:0px) and (max-width:480px) {
+    .m-hide{
+        display: none !important;
+    }
+     .Container{
+        height: 100%;
+        width: 100%;
+        background:linear-gradient(to bottom,  red,#f6b73c );
+
+    }
+    .BgContainer{
+        width: 100%;
+        height: 100%;
+        border: none !important;
+        background-image: none;
+    }
+    .SliderContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .WheelsCard{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .active{
+        transform: scale(1.0);
+      }
+      .Header{
+        background:#fe2009;
+
+      }
+      .arrow{
+        transform: rotate(90deg);
+      }
+      .Subheader{
+        padding: 19px 24px 0px 24px;
+      }
+
+  }
+  /* ==== Responsive css End ==== */
