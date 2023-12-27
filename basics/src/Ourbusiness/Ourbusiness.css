@@ -1,0 +1,44 @@
+
+.OurbusinessContainer{
+    padding: 80px 0px 100px 0px;
+    background-color: #000000;
+}
+.BusinessTitle{
+    color: #E9BA02;
+    font-family: 'Krona One', sans-serif;
+    font-size: 45px;
+    line-height: 80px;
+    padding: 0px 0px 50px 50px;
+}
+.businestxt{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 30px 0px 30px 50px;
+    border: 1px solid  white;
+    border-left: none;
+    border-right: none;
+    border-image: linear-gradient(to right, #69F4FE, #000BFF) 1;
+}
+.businestxt2{
+    margin: 50px 0px 50px 0px;
+}
+
+@media screen and (min-width:0px) and (max-width:480px){
+.businestxt{
+    text-align: center;
+    padding: 30px 0px 30px 0px !important;
+
+}
+.BusinessTitle {
+    
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0px 0px 50px 0px !important;
+}
+.OurbusinessContainer {
+    padding: 75px 0px 75px 0px;
+}
+}

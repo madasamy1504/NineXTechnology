@@ -1,0 +1,43 @@
+.clientContainer{
+    background-color: #000000;
+    padding-bottom: 150px;
+}
+
+.title_container{
+    font-size: 32px;
+    color: #E9BA02;
+    font-family: "Krona One";
+    width: 18%;
+    min-width: 250px;
+}
+.grey_line{
+    align-items: center;
+    height: 1px;
+    background-color: #6F6F6F;
+    width: 100%;
+}
+ 
+.line_container{
+    width: 85%;
+}
+ 
+.client_image{
+    width: 239px;
+}
+.greyBG{
+    background: #5C5C5C;
+    height: 156px;
+}
+.blueBG{
+    background: #0F0825;
+    height: 156px;
+}
+.pl-40{
+    padding-left: 40px;
+}
+@media screen and (min-width:0px) and (max-width:480px) {
+    .clientContainer{
+        background-color: #000000;
+        padding-bottom: 50px;
+    }
+}

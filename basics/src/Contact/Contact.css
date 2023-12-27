@@ -1,0 +1,113 @@
+.contactBgContainer{
+    background-image: url("../assets/contact.png");
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 0px;
+}
+
+.contactButtonContainer{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 0px 0px 50px;
+    
+}
+.ContactBtn1{
+    background-color: #FFF;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.copyrightContainer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 1.5;
+    padding: 30px 0px;
+    background: linear-gradient(to right, #4F3A61,#1A2C60)
+
+}
+
+
+/* ======Form=== */
+.FormBg{
+    background-color: rgba(53, 53, 53, 0.72);
+    padding: 50px 40px 50px 40px;
+    width: 35%;
+    border-radius: 10px;
+}
+.FormContainer{
+    padding: 50px 0px 50px 50px;
+}
+.ContactText1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    line-height: 1;
+    color: #FFF;
+
+}
+.ContactText2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFF;
+    padding: 20px 0px;
+}
+input{
+    border: 1px solid #868686;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #868686;
+    font-family: 'Poppins', sans-serif;
+
+}
+.inputCont{
+    padding-bottom: 20px;
+}
+.Contactbtn{
+    background: linear-gradient(to right, #8978E7, #4077A8,#D4AF1C);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+  
+  }
+
+  @media screen and (min-width:481px) and (max-width:768px) {
+    .FormBg {
+        width: 60%;
+    }
+    .contactBgContainer{
+        background: linear-gradient(to bottom ,#4F3A61,#1A2C60);
+    }
+  }
+  @media screen and (min-width:0px) and (max-width:480px) {
+    .FormBg {
+        padding: 50px 20px 50px 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .FormContainer {
+        padding: 50px 0px 50px 0px;
+    }
+    .contactButtonContainer {
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    .ContactText1{
+        font-size: 25px;
+    }
+  }
+  
+  

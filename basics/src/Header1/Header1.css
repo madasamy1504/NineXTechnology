@@ -1,0 +1,15 @@
+.scrollimgContain{
+    width: 100%;
+    background-color: #000000;
+  }
+  .scrollimg{
+  width: 100%;
+  height: auto;
+  }
+
+  @media screen and (min-width:0px) and (max-width:768px){
+    .m-hide{
+      display: none !important;
+    }
+  }
+ 

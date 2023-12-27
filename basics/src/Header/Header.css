@@ -1,0 +1,201 @@
+/* ==========nav bar Desktop Start====== */
+.HeaderBgContainter{
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url("../assets/HeaderBg3.png");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.nav-link{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-nav .nav-link.active{
+  color: #9B9AFB;
+}
+.nav-link:hover{
+  color: #9B9AFB;
+}
+.navbar-nav{
+  width: 90%;
+}
+.navbar-brand{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.navbar-toggler-icon{
+background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 0.75%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+
+}
+
+.navbar-toggler{
+border: 1px solid #fff;
+}
+.navbar-toggler:focus{
+box-shadow: 2px 2px 2px  #fff;
+}
+#navbarTogglerDemo03 ul{
+  margin-left: auto !important;
+}
+/* ==========nav bar Desktop End====== */
+
+
+
+
+
+/* ============Title Start Desktop======= */
+
+#titleContainer{
+  padding: 100px 0px 0px 50px;
+  width: 100%;
+}
+#title{
+color: #fff;
+font-family: 'Krona One', sans-serif;
+font-size: 55px;
+line-height: 2;
+
+}
+.gradient{
+  background: linear-gradient(to right, #D4AF1C, #137199,#A179F5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headerText1{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  padding-top: 10px;
+}
+/* ============Title Desktop End======= */
+
+/* ============Title Mobile Start======= */
+
+/* ============Title Mobile End======= */
+
+
+
+/* ============Button Desktop Start======= */
+.btnConatainer{
+  padding: 50px 0px 50px 50px;
+  width: 100%;
+
+
+}
+.Headerbtn{
+  background: linear-gradient(to right, #8978E7, #4077A8,#D4AF1C);
+  font-family: 'Poppins', sans-serif;
+  border: none;
+
+}
+
+
+
+/* ============Button Desktop End======= */
+
+
+/* ============Button Mobile Start======= */
+
+/* ============Button Mobile End======= */
+
+
+/* ==========Mobile Start====== */
+
+@media screen and (min-width:0px) and (max-width:480px) {
+  .HeaderBgContainter{
+    background-image: none !important;
+    background: linear-gradient(#151f3a, #083162) !important;
+  }
+  #navbarTogglerDemo03{
+    background-color: #fff;
+  }
+  .navbar-brand{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .nav-link{
+    color: #ffa500;
+  }
+  #title{
+    font-size: 30px !important;
+    line-height: 50px !important;
+  }
+  #titleContainer{
+    padding: 30px 0px 0px 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .headerText1{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 30px;
+  }
+  .btnConatainer{
+    padding: 30px 0px 50px 0px;
+    width: 100%;
+    text-align: center;
+  
+  
+  }
+  .m-hide{
+    display: none !important;
+  }
+  
+  }
+  
+  @media screen and (min-width:481px) and (max-width:768px) {
+  .HeaderBgContainter{
+    background-image: none !important;
+    background: linear-gradient(#151f3a, #083162) !important;
+  }
+  #navbarTogglerDemo03{
+    background-color: #fff;
+  }
+  .navbar-brand{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .nav-link{
+    color: #ffa500;
+    font-weight: bold;
+  }
+
+
+  #title{
+    font-size: 30px !important;
+    line-height: 50px !important;
+    text-align: center;
+
+  }
+  #titleContainer{
+    padding: 30px 0px 0px 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .headerText1{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .btnConatainer{
+    padding: 30px 0px 50px 0px;
+    width: 100%;
+    text-align: center;
+  
+  
+  }
+  .m-hide{
+    display: none !important;
+  }
+
+  }
+  
+  /* ==========Mobile End====== */
+
+
+

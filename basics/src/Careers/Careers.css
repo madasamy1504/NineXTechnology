@@ -1,0 +1,93 @@
+.CareerContainer{
+    background-image: url("../assets/careers.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 183px 40px 70px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.ceoImg{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.InsideContainer{
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 100%;
+    height: auto;
+    padding: 120px 50px 150px;
+}
+.CareerText1{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #fff;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+.ceoName{
+    color:#E9BA02;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 500;
+    text-align: right;
+}
+.ceoPosition{
+    color:#FFF;
+    font-size: 24px;
+    line-height: 2;
+    text-align: right;
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .CareerText1{
+        font-size: 20px;
+        line-height: 1.5;
+        padding-right:0 !important;
+    }
+    .ceoName {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+    .ceoPosition {
+        font-size: 15px;
+    }
+    .InsideContainer {
+        padding: 100px 50px 100px;
+    }
+    .CareerContainer {
+        padding: 165px 40px 70px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:480px) {
+    .CareerContainer{
+        background: linear-gradient(to right, #03265F, #553B61) !important;
+    }
+    .CareerContainer {
+        padding: 50px 10px;
+    }
+    .InsideContainer {
+        padding: 50px 20px 50px;
+    }
+    .CareerText1 {
+        
+        font-size: 20px;
+        line-height: 1.5;
+        padding-right: 10px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .ceoName {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+    .ceoPosition {
+        font-size: 20px;
+        line-height: 2;
+    }
+}

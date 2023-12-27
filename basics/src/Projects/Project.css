@@ -1,0 +1,30 @@
+.ProjectContainer{
+    background-color: #000000;
+    padding: 50px 50px 0px;
+    color: #E9BA02;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+.ProjectTitle{
+    text-align: center;
+    font-size: 45px;
+    line-height: 80px;
+    padding-bottom: 50px;
+}
+.projectImg{
+    width: 100%;
+    height: auto;
+}
+.plr-35{
+    padding: 0px 35px 70px;
+}
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .ProjectTitle{
+    font-size: 25px;
+    line-height: 1.5;
+    }
+    .projectImg{
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,108 @@
+.visionContainer,.rowContainer{
+    width: 100%;
+}
+
+.visionContainer{
+    background-image: url('../assets/AboutUsBg.png');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 0px;
+    background-color: #000;
+}
+
+.visionCard1Border{
+    background-color: #000000;
+    padding: 30px 70px;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background: linear-gradient(#1155AD, #A49D1D);
+    background-clip: padding-box;
+    padding: 1px;
+    /* just to show box-shadow still works fine */
+    box-shadow: 15px 15px 15px #1F1F1F, inset 0 0 15px #1F1F1F;
+}
+.visionCard1Border::after{
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(#1155AD, #A49D1D);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}
+.visionCard1Background{
+    background-color: #000000;
+    
+    border-radius: 16px ;
+    text-align: center;
+    padding: 50px 100px;
+}
+
+
+
+.visionTitle{
+    color: #E9BA02;
+    font-family: 'Krona One', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 25px;
+
+}
+
+.visionText{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    line-height: 50px;
+}
+.rowContainer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (min-width:0px) and (max-width:480px) {
+    .visionContainer{
+        padding: 50px 20px 0px 20px !important;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .mp-0{
+        padding: 0 !important;
+    }
+   
+    .visionCard1Background{
+        padding: 50px 10px !important;
+    }
+    .visionTitle{
+        font-size: 24px !important;
+        line-height: 1;
+    }
+    .visionText{
+        font-size: 16px ;
+        line-height: 1.5;
+    }
+    .mvisionCard1Border{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .visionText {
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .visionCard1Background{
+        padding: 50px 10px;
+    }
+    .visionContainer{
+        padding: 50px 0px 0px 0px !important;
+    }
+    
+}
+

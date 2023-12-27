@@ -1,0 +1,112 @@
+/* All CSS styles for the component are defined in this file */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+  }
+  
+  .content-box {
+    width: 1800px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .card p {
+    font-size: 70px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .action-btns1 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 0px 0px 50px 60px;
+  }
+  
+  .action-btns1 button {
+    font-size: 15px;
+    font-weight: 500;
+    color: #002d36;
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 50%;
+   width: 60px;
+   height: 60px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  .action-btns button:hover {
+    color: #ffffff;
+    background-color: #002d36;
+  }
+  .Service2Container{
+    padding: 100px 0px 30px 50px;
+  }
+  .card:nth-child(1){
+    background-image: url("../assets/card0.png");
+  }
+  .card:nth-child(2){
+    background-image: url("../assets/card1.png");
+  }
+  .card:nth-child(3){
+    background-image: url("../assets/card2.png");
+  }
+  .card:nth-child(4){
+    background-image: url("../assets/card3.png");
+  }
+  .card:nth-child(5){
+    background-image: url("../assets/card4.png");
+  }
+
+  .Service2Container::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.inside{
+ visibility: hidden;
+}
+
+.Service2Bg{
+  background-image: url("../assets/Services2.png");
+  width: 100%;
+  height: auto;
+}
+.Cardtitle{
+  color: #fff;
+  font-family: 'Krona One', sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  margin-top: auto;
+  padding: 0px 40px 50px;
+  text-align: center;
+}
+
+.Cardtitle:nth-child(2){
+  padding: 0px 80px 50px !important;
+}
+
+
+
+
+  /* ===== */
+
+  
